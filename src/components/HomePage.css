@@ -1,0 +1,21 @@
+.HomePage {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.HomePage img {
+  width: 120%;
+  height: 100vh;
+}
+
+.HomePageTitle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.HomePageTitle h1 {
+  text-align: right;
+}
