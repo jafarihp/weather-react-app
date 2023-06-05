@@ -1,5 +1,6 @@
 import React, { Component, useEffect } from "react";
-import useTitle from "./UseTitle";
+import { Link } from "react-router-dom";
+import useTitle from "./useTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./HomePage.css";
@@ -22,10 +23,9 @@ const HomePage = () => {
         data-aos-duration="1000"
       >
         <h1>وب اپلیکیشن هواشناسی</h1>
+        <Link to="/Search">جستجو بین شهرها</Link>
       </div>
-      <div>
-        <img src={animationRain} alt="Weather App photo" />
-      </div>
+      <img src={animationRain} alt="Weather App photo" />
     </div>
   );
 };

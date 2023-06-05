@@ -1,0 +1,55 @@
+.NavbarContainer {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 1.7rem 0.5rem;
+  font-size: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  bottom: 2rem;
+  border-radius: 50px;
+}
+.NavbarContainer a {
+  color: #232323;
+  cursor: pointer;
+  text-decoration: none;
+}
+.NavbarContainer div {
+  padding: 1rem;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all linear;
+}
+.NavbarContainer div :hover {
+  padding: 0.8rem;
+  border-radius: 15px;
+  background: #008ae6;
+}
+.NavbarContainer div a {
+  color: black;
+}
+
+.NavbarContainer img {
+  width: 10%;
+  margin-left: 0.4rem;
+}
+
+.FixedShape {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.FixedShape img {
+  width: 100%;
+  height: 100vh;
+}
