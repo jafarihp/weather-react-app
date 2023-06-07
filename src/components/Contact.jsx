@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 
-import useTitle from "./useTitle";
+import UseTitle from "./UseTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Contact.css";
 import Communication from "../assets/img/communication.png";
 
 const Contact = () => {
-  useTitle("تماس با ما");
+  UseTitle("تماس با ما");
 
   useEffect(() => {
     AOS.init();

@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 
-import useTitle from "../components/useTitle";
+import UseTitle from "./UseTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
@@ -12,7 +12,7 @@ import loadingGif from "../assets/img/loading.gif";
 const apiKey = "6ade73b579deac95f6cd38ae077cc7ec";
 
 const Search = () => {
-  useTitle("جستجو");
+  UseTitle("جستجو");
 
   const inputRef = useRef("");
   const [apiData, setApiData] = useState("");
@@ -133,7 +133,7 @@ const Search = () => {
         >
           <div className="DataDescription">
             <img
-              src={`https://openweathermap.org/img/w/${apiData.data.weather[0]["icon"]}.png`}
+              src={`icons/${apiData.data.weather[0]["icon"]}.png`}
               alt="icon"
             />
             <p>{apiData.data.weather[0].description}</p>
@@ -147,7 +147,7 @@ const Search = () => {
         </div>
       )}
 
-      {/* <Toaster
+      <Toaster
         toastOptions={{
           style: {
             border: "1px solid #f4f4f4",
@@ -155,7 +155,7 @@ const Search = () => {
             fontSize: "1.5rem",
           },
         }}
-      /> */}
+      />
     </div>
   );
 };

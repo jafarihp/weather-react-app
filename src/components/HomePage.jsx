@@ -1,13 +1,13 @@
 import React, { Component, useEffect } from "react";
 import { Link } from "react-router-dom";
-import useTitle from "./useTitle";
+import UseTitle from "./UseTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./HomePage.css";
 import animationRain from "../assets/img/Animated-Bunny-In-Rain.gif";
 
 const HomePage = () => {
-  useTitle("صفحه اصلی");
+  UseTitle("صفحه اصلی");
 
   useEffect(() => {
     AOS.init();
