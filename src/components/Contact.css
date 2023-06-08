@@ -35,3 +35,9 @@
   border: none;
   outline: none;
 }
+
+.ContactTitle p a :hover {
+  opacity: 1;
+  color: purple;
+  font-weight: bolder;
+}
