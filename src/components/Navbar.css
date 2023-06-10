@@ -53,3 +53,51 @@
   width: 100%;
   height: 100vh;
 }
+
+/* Responsive :) */
+@media (max-width: 375px) {
+  /* کدهای css برای دستگاه‌های با عرض کمتر از 375 پیکسل */
+  .NavbarContainer img {
+    width: 12%;
+    margin-left: 0.5rem;
+  }
+  .NavbarContainer {
+    font-size: 1.2rem;
+    height: 8vh;
+  }
+}
+
+@media (width >= 425px) {
+  /* کدهای css برای دستگاه‌های با عرض کمتر از 425 پیکسل */
+  .NavbarContainer img {
+    width: 15%;
+    margin-left: 0.5rem;
+  }
+  .NavbarContainer {
+    font-size: 1.4em;
+    height: 10vh;
+  }
+}
+@media (width >= 768px) {
+  /* کدهای css برای دستگاه‌های با عرض کمتر از 768 پیکسل */
+  .NavbarContainer img {
+    width: 10%;
+    margin-left: 0.5rem;
+  }
+  .NavbarContainer {
+    font-size: 1.5em;
+    height: 12vh;
+  }
+}
+
+@media (width >= 1024px) {
+  /* کدهای css برای دستگاه‌های با عرض کمتر از 1024 پیکسل */
+  .NavbarContainer img {
+    width: 10%;
+    margin-left: 0.8rem;
+  }
+  .NavbarContainer {
+    font-size: 1.7rem;
+    height: 13vh;
+  }
+}
