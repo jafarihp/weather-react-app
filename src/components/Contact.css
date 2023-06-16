@@ -41,3 +41,72 @@
   color: purple;
   font-weight: bolder;
 }
+
+/* Responsive :) */
+@media (max-width: 375px) {
+  /* کدهای css برای دستگاه‌های با عرض کمتر از 375 پیکسل */
+  .ContactContainer div img {
+    width: 100px;
+    height: 100px;
+  }
+  .ContactContainer h1 {
+    font-size: 2.5rem;
+  }
+  .ContactContainer p {
+    font-size: 1.2rem;
+  }
+  .ContactContainer button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (width > 375px) {
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 375 پیکسل */
+  .ContactContainer div img {
+    width: 120px;
+    height: 120px;
+  }
+  .ContactContainer h1 {
+    font-size: 2.5rem;
+  }
+  .ContactContainer p {
+    font-size: 1.3rem;
+  }
+  .ContactContainer button {
+    font-size: 1.3rem;
+  }
+}
+
+@media (width >= 768px) {
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 768 پیکسل */
+  .ContactContainer div img {
+    width: 180px;
+    height: 180px;
+  }
+  .ContactContainer h1 {
+    font-size: 3.5rem;
+  }
+  .ContactContainer p {
+    font-size: 1.8rem;
+  }
+  .ContactContainer button {
+    font-size: 1.7rem;
+  }
+}
+
+@media (width >= 1024px) {
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 1024 پیکسل */
+  .ContactContainer div img {
+    width: 220px;
+    height: 220px;
+  }
+  .ContactContainer h1 {
+    font-size: 4rem;
+  }
+  .ContactContainer p {
+    font-size: 2rem;
+  }
+  .ContactContainer button {
+    font-size: 2rem;
+  }
+}

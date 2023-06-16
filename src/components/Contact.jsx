@@ -31,7 +31,7 @@ const Contact = () => {
           <a href="https://github.com/MohMeri73/weather-react-app">اینجا</a>{" "}
           کلیک کنید
         </p>
-        <a href="https://www.linkedin.com/in/mohmeri/">
+        <a href="https://www.linkedin.com/in/mohmeri/" className="linkedin">
           <button>لینکدین</button>
         </a>
       </div>

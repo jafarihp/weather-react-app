@@ -67,8 +67,8 @@
   }
 }
 
-@media (width >= 425px) {
-  /* کدهای css برای دستگاه‌های با عرض کمتر از 425 پیکسل */
+@media (width > 375px) {
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 375 پیکسل */
   .HomePage {
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@
   }
 }
 @media (width >= 768px) {
-  /* کدهای css برای دستگاه‌های با عرض کمتر از 768 پیکسل */
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 768 پیکسل */
   .HomePage {
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@
 }
 
 @media (width >= 1024px) {
-  /* کدهای css برای دستگاه‌های با عرض کمتر از 1024 پیکسل */
+  /* کدهای css برای دستگاه‌های با عرض بیشتر از 1024 پیکسل */
   .HomePage {
     display: flex;
     align-items: center;
