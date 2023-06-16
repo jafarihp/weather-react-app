@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="NavbarContainer">
         <div>
           <img src={InfoIcon} alt="Info Icon" />
-          <Link to="/Contact">تماس با ما</Link>
+          <Link to="/Contact">تماس با من</Link>
         </div>
         <div>
           <img src={SearchIcon} alt="Search Icon" />

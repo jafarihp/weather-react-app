@@ -25,13 +25,13 @@ const Contact = () => {
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
       >
-        <h1>تماس با ما</h1>
+        <h1>تماس با من</h1>
         <p>
           جهت دانلود سورس کد این پروژه در گیت هاب{" "}
           <a href="https://github.com/MohMeri73/weather-react-app">اینجا</a>{" "}
           کلیک کنید
         </p>
-        <a href="https://www.linkedin.com/in/mohmeri/" className="linkedin">
+        <a href="https://www.linkedin.com/in/mohmeri/">
           <button>لینکدین</button>
         </a>
       </div>
