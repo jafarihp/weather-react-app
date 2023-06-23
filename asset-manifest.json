@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/weather-react-app/public/static/css/main.b4694193.css",
-    "main.js": "/weather-react-app/public/static/js/main.853fc71e.js",
-    "static/media/404.gif": "/weather-react-app/public/static/media/404.be6e15b16c8418f31e1b.gif",
-    "static/media/Animated-Bunny-In-Rain.gif": "/weather-react-app/public/static/media/Animated-Bunny-In-Rain.8ec9533a61ea62d65043.gif",
-    "static/media/wave.png": "/weather-react-app/public/static/media/wave.93262e0d266b663ae1c9.png",
-    "static/media/Vazir.eot": "/weather-react-app/public/static/media/Vazir.7033586641859ae0b481.eot",
-    "static/media/Vazir.ttf": "/weather-react-app/public/static/media/Vazir.33c1845a778f7e3c1c7d.ttf",
-    "static/media/Vazir.woff": "/weather-react-app/public/static/media/Vazir.b8234f5ef6ecbd4b502d.woff",
-    "static/media/communication.png": "/weather-react-app/public/static/media/communication.16c5c5751fb0a6fbee12.png",
-    "static/media/Vazir.woff2": "/weather-react-app/public/static/media/Vazir.ef4fe90b863efb3ff605.woff2",
-    "static/media/loading.gif": "/weather-react-app/public/static/media/loading.b271c250b1191e39758d.gif",
-    "static/media/Home.svg": "/weather-react-app/public/static/media/Home.f35255aa4bbf47c196f8f20b9274a4e0.svg",
-    "static/media/Info.svg": "/weather-react-app/public/static/media/Info.bfc91a7d338b72a4db3555148ac6ecb1.svg",
-    "index.html": "/weather-react-app/public/index.html",
-    "static/media/Search.svg": "/weather-react-app/public/static/media/Search.9e058ae5b2eb42b9b050e8ecf28b64f1.svg",
-    "main.b4694193.css.map": "/weather-react-app/public/static/css/main.b4694193.css.map",
-    "main.853fc71e.js.map": "/weather-react-app/public/static/js/main.853fc71e.js.map"
+    "main.css": "/weather-react-app/static/css/main.999e8e1c.css",
+    "main.js": "/weather-react-app/static/js/main.15fe8529.js",
+    "static/media/404.gif": "/weather-react-app/static/media/404.be6e15b16c8418f31e1b.gif",
+    "static/media/Animated-Bunny-In-Rain.gif": "/weather-react-app/static/media/Animated-Bunny-In-Rain.8ec9533a61ea62d65043.gif",
+    "static/media/wave.png": "/weather-react-app/static/media/wave.93262e0d266b663ae1c9.png",
+    "static/media/Vazir.eot": "/weather-react-app/static/media/Vazir.7033586641859ae0b481.eot",
+    "static/media/Vazir.ttf": "/weather-react-app/static/media/Vazir.33c1845a778f7e3c1c7d.ttf",
+    "static/media/Vazir.woff": "/weather-react-app/static/media/Vazir.b8234f5ef6ecbd4b502d.woff",
+    "static/media/communication.png": "/weather-react-app/static/media/communication.16c5c5751fb0a6fbee12.png",
+    "static/media/Vazir.woff2": "/weather-react-app/static/media/Vazir.ef4fe90b863efb3ff605.woff2",
+    "static/media/loading.gif": "/weather-react-app/static/media/loading.b271c250b1191e39758d.gif",
+    "static/media/Home.svg": "/weather-react-app/static/media/Home.f35255aa4bbf47c196f8f20b9274a4e0.svg",
+    "static/media/Info.svg": "/weather-react-app/static/media/Info.bfc91a7d338b72a4db3555148ac6ecb1.svg",
+    "index.html": "/weather-react-app/index.html",
+    "static/media/Search.svg": "/weather-react-app/static/media/Search.9e058ae5b2eb42b9b050e8ecf28b64f1.svg",
+    "main.999e8e1c.css.map": "/weather-react-app/static/css/main.999e8e1c.css.map",
+    "main.15fe8529.js.map": "/weather-react-app/static/js/main.15fe8529.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4694193.css",
-    "static/js/main.853fc71e.js"
+    "static/css/main.999e8e1c.css",
+    "static/js/main.15fe8529.js"
   ]
 }
