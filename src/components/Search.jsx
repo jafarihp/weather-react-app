@@ -28,16 +28,12 @@ const Search = () => {
         SuccessNotify();
         setApiData(data);
         setSpinner(false);
-        {
-          inputRef.current.value = "";
-        }
+        inputRef.current.value = "";
       })
       .catch((err) => {
         ErrorNotify();
         setSpinner(false);
-        {
-          inputRef.current.value = "";
-        }
+        inputRef.current.value = "";
       });
   };
 
@@ -133,14 +129,14 @@ const Search = () => {
         >
           <div className="DataDescription">
             <img
-              src={`icons/${apiData.data.weather[0]["icon"]}.png`}
+              src={`/icons/${apiData.data.weather[0]["icon"]}.png`}
               alt="icon"
             />
             <p>{apiData.data.weather[0].description}</p>
           </div>
 
           <div>
-            <p className="temp">{Math.round(apiData.data.main.temp)}°c</p>
+            <p className="temp">{Math.round(apiData.data.main.temp)}°C</p>
             <h3>{`${apiData.data.name}, ${apiData.data.sys.country}`}</h3>
             <p>{dateBuilder(new Date())}</p>
           </div>

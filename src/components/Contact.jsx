@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <div className="ContactContainer">
       <div>
-        <img src={Communication} alt="Weather App photo" />
+        <img src={Communication} alt="Weather App" />
       </div>
       <div
         className="ContactTitle"

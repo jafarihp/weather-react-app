@@ -13,11 +13,11 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes maxLoadingTime={100}>
+        <Route path="//" element={<HomePage />} loading />
+        <Route path="/Search" element={<Search />} loading />
+        <Route path="/Contact" element={<Contact />} loading />
         <Route path="/*" element={<Navigate to="/404" />} loading />
         <Route path="/404" element={<NotFound />} />
-        <Route path="/Contact" element={<Contact />} loading />
-        <Route path="/Search" element={<Search />} loading />
-        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );
