@@ -18,15 +18,21 @@ const Navbar = () => {
       <div className="NavbarContainer">
         <div>
           <img src={InfoIcon} alt="Info Icon" />
-          <Link to="/Contact">تماس با من</Link>
+          <Link className="text-navbar" to="/Contact">
+            تماس با من
+          </Link>
         </div>
         <div>
           <img src={SearchIcon} alt="Search Icon" />
-          <Link to="/Search">جست و جو</Link>
+          <Link className="text-navbar" to="/Search">
+            جست و جو
+          </Link>
         </div>
         <div>
           <img src={HomeIcon} alt="Home Icon" />
-          <Link to="/">صفحه اصلی</Link>
+          <Link className="text-navbar" to="/">
+            صفحه اصلی
+          </Link>
         </div>
       </div>
     </div>

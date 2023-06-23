@@ -57,13 +57,22 @@
 /* Responsive :) */
 @media (max-width: 375px) {
   /* کدهای css برای دستگاه‌های با عرض کمتر از 375 پیکسل */
+  .FixedShape img {
+    height: 110vh;
+  }
   .NavbarContainer img {
     width: 12%;
     margin-left: 0.5rem;
   }
   .NavbarContainer {
-    font-size: 1.2rem;
+    position: relative;
+    top: 85vh;
+    width: 100%;
+    font-size: 1rem;
     height: 8vh;
+  }
+  .NavbarContainer div :hover {
+    font-size: 0.8rem;
   }
 }
 
@@ -74,7 +83,7 @@
     margin-left: 0.5rem;
   }
   .NavbarContainer {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     height: 10vh;
   }
 }
@@ -87,6 +96,7 @@
   .NavbarContainer {
     font-size: 1.5em;
     height: 12vh;
+    width: 80%;
   }
 }
 
