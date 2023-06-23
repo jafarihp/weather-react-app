@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 
-const UseTitle = () => {
-  useEffect((title) => {
+const UseTitle = (title) => {
+  useEffect(() => {
     document.title = `${title} |وب اپلیکیشن هواشناسی`;
+    // eslint-disable-next-line
   }, []);
 };
 
